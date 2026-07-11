@@ -1,0 +1,36 @@
+# robots.txt for LeaveEase - Smart Leave Management System
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /assets/uploads/
+Disallow: /assets/cache/
+Disallow: /sql/
+Disallow: /tmp/
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.ini$
+Disallow: /pages/forgot-password.php
+Disallow: /pages/reset-password.php
+
+# Allow important pages
+Allow: /pages/login.php
+Allow: /pages/register.php
+Allow: /pages/dashboard.php
+Allow: /pages/apply-leave.php
+Allow: /pages/leave-history.php
+Allow: /pages/calendar.php
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10
+
+# Cache control
+Cache-Control: no-cache
+
+# Host
+Host: your-domain.com

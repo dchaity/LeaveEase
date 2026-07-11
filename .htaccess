@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteBase /
+
+# Allow image access from any directory
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|ico|svg)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Allow access to uploads folder
+<Directory "/assets/uploads">
+    Options Indexes
+    Allow from all
+</Directory>
+
+# Error pages
+ErrorDocument 404 /pages/404.php
+
+# PHP settings
+php_value upload_max_filesize 20M
+php_value post_max_size 30M
+php_value max_execution_time 300
