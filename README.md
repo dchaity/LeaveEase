@@ -542,7 +542,7 @@ git push origin feature/amazing-feature
 | Platform | Link |
 |----------|------|
 | 🌐 Live Demo | https://leavemanage.free.nf/ |
-| 💻 GitHub | https://github.com/dchaity/LeaveEaseproject |
+| 💻 GitHub |https://github.com/dchaity/LeaveEase |
 | 👤 Developer | **Chaiti Das** |
 | 💼 LinkedIn | https://www.linkedin.com/in/chaity-das-682bb32a3 |
 | 📧 Email | dchaity240@gmail.com |
@@ -608,7 +608,7 @@ Developed by **Chaiti Das**
 https://leavemanage.free.nf/
 
 💻 GitHub Repository  
-https://github.com/chaiti-das/leave-management-system
+https://github.com/dchaity/LeaveEase
 
 ---
 
