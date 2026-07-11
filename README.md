@@ -232,8 +232,8 @@ Before running the project, make sure you have:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/chaiti-das/leave-management-system.git
-cd leave-management-system
+git clone https://github.com/dchaity/LeaveEaseproject.git
+cd LeaveEaseproject
 ```
 
 ---
@@ -542,7 +542,7 @@ git push origin feature/amazing-feature
 | Platform | Link |
 |----------|------|
 | 🌐 Live Demo | https://leavemanage.free.nf/ |
-| 💻 GitHub | https://github.com/chaiti-das/leave-management-system |
+| 💻 GitHub | https://github.com/dchaity/LeaveEaseproject |
 | 👤 Developer | **Chaiti Das** |
 | 💼 LinkedIn | https://www.linkedin.com/in/chaity-das-682bb32a3 |
 | 📧 Email | dchaity240@gmail.com |
