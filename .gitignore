@@ -1,0 +1,39 @@
+# Sensitive config
+config/database.php
+
+# User uploads (keep folders, ignore contents)
+assets/uploads/profiles/*
+!assets/uploads/profiles/.gitkeep
+assets/uploads/documents/*
+!assets/uploads/documents/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary debug files
+*-test.php
+*-debug.php
+reset-admin.php
+check.php
+whoami.php
+
+# Composer / Node (if you add them later)
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Environment
+.env
+.env.localgit add .

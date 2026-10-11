@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /sql/
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /pages/forgot-password.php
+Disallow: /pages/reset-password.php
+
+Sitemap: https://your-domain.com/sitemap.xml
